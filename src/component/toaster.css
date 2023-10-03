@@ -1,0 +1,13 @@
+#container .Toastify .Toastify__toast-container{
+width: 400px;
+}
+.Toastify__toast>button{
+    margin-top: 8px;
+    margin-right: 14px;
+}
+.Toastify__toast--success{
+    background: lightsteelblue!important;
+}
+.Toastify__toast-body{
+    text-align: center;
+}

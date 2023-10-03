@@ -1,0 +1,58 @@
+.preloaded{
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 27;
+   }
+   .preloader{
+    position: absolute;
+    width: 150px;
+    height: 120px;
+    top: 35%;
+    left: 45%;
+   }
+   .preloader .lines {
+    width: 150px;
+    height: 120px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+  }
+  .preloader .lines .line {
+    width: 7%;
+    height: 90px;
+  
+    margin-right: 10px;
+    background-color: #FF6600;
+
+  }
+  .preloader .lines .line.line-1 {
+     animation: slide 1s ease 0.10s infinite;
+  }
+  .preloader .lines .line.line-2 {
+    animation: slide 1s ease 0.40s infinite;
+ }
+ .preloader .lines .line.line-3 {
+    animation: slide 1s ease 0.70s infinite;
+ }
+ .preloader .lines .line.line-4 {
+    animation: slide 1s ease 1s infinite;
+ }
+  @keyframes slide {
+  
+    100%{ transform: scale(0.2);}
+  }
+  .preloader .loading-text {
+    position: absolute;
+    top: 100px;
+    text-align: center;
+    width: 100%;
+    color: #000;
+    font-size: 13px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    line-height: 10px;
+    height: 10px;
+  }

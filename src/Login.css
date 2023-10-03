@@ -1,0 +1,150 @@
+.login {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social{
+    margin-right: 50px;
+    justify-content: center;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+  }
+  .login > form {
+    display: flex;
+    flex-direction: column;
+  }
+  .head{
+      margin-top: 50px;;
+  }
+  .login > form > input {
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .login > form > button {
+    width: 356px;
+    height: 50px;
+    font-size: large;
+    color: #ffffff;
+    background-color: #0074b1;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .login_register {
+    color: #0177b7;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .login > p {
+    margin-top: 20px;
+  }
+
+  .vl {
+    border-left: 6px solid rgb(151, 200, 233);
+    height: 200px;
+  }
+
+  .google{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: white;
+    cursor: pointer;
+  
+  }
+  .google>button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  #filled-secondary-label+.MuiInput-underline:before,#filled-secondary-label+.MuiInput-underline:after{
+    border: none !important;
+  
+  }
+  #passwordlable+.MuiInput-underline:before, #passwordlable+.MuiInput-underline:after{
+    border: none ;
+  }
+  
+#passwordlable{
+  padding-left: 13px;
+}
+#filled-password{
+  padding-left: 15px;
+}
+#icon{
+  margin-top: 0px !important;
+ margin: 10px;
+}
+.myform .makeStyles-text-1{
+  border-radius: 8px ;
+}
+#filled-secondary-label+.MuiInputBase-root{
+  padding-left: 15px;
+  padding-bottom: 8px;
+  font-size: 15px;
+}
+#filled-secondary-helper-text{
+  margin-left: 14px;
+  margin-top: 0;
+}
+  #filled-secondary-label{
+    padding-left: 15px;
+  }
+  .ganesh>div{
+    padding: 0px !important;
+    margin-right: 30px !important;
+  }
+  .ganesh>span{
+    font-size: 20px !important;
+  }
+  .facebook{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    border: 2px rgb(6, 111, 248);
+    margin: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    background-color: #3c5a99;
+    margin-bottom: 20px;
+    color: white;
+    cursor: pointer;
+  }
+  .futter{
+      margin-left: 42%;
+      margin-top: 20px;
+  }
+  .linkdin{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    border: 2px rgb(63, 154, 230);
+    margin: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    background-color: #0275b4;
+    margin-bottom: 20px;
+    color: white;
+    cursor: pointer;
+  }
+
+  img{
+    margin-right: 20px;
+  }
+
+  div{
+    font-size: 20px;
+  }
